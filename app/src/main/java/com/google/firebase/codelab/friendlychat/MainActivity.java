@@ -92,6 +92,7 @@ public class MainActivity extends AppCompatActivity
         TextView messengerTextView;
         CircleImageView messengerImageView;
 
+        //MessageViewHolder
         public MessageViewHolder(View v) {
             super(v);
             messageTextView = (TextView) itemView.findViewById(R.id.messageTextView);
